@@ -7,11 +7,34 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <section class="container-fluid px-0">
+        <div class="row">
+          <div class="col-12"><?php include("./banner.php");?></div>
+        </div>
+    </section>
+    <section class="container-fluid px-0">
+        <div class="row">
+          <div class="col-12"><?php include("./navbar.php");?></div>
+        </div>
+    </section>
+    <section class="container-fluid px-0">
+        <div class="row">
+            <div class="col-12">
+                <?php include("./content.php")?>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid px-0 fixed-bottom">
+        <div class="row">
+          <div class="col-12"><?php include("footer.php");?></div>
+        </div>
+    </section>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

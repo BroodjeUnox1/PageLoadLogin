@@ -1,0 +1,11 @@
+{
+  "name": "shoes",
+  "version": "1.0.0",
+  "description": "school opdracht",
+  "main": "app.js",
+  "scripts": {
+    "test": "testing123"
+  },
+  "author": "Steven de Bruijn",
+  "license": "ISC"
+}
