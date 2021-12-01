@@ -1,1 +1,1 @@
-<img src="./img/banner.png" alt="banner">
+<img src="./img/banner.png" alt="banner" style="overflow: hidden;">

@@ -1,7 +1,47 @@
 #footer {
 	min-height: 4em;
+	margin-right: 0;
 	background-color: yellowgreen;
 	color: white;
 	text-align: center;
 	font-weight: bolder;
+	padding: 0;
+}
+
+hr {
+	max-width: 700px;
+	background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+}
+
+.btn-login:hover, .btn-logn:focus {
+	color: #fff;
+    background-color: #53A3CD;
+}
+
+.btn-login {
+	background-color: #59B2E0;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 14px 0;
+    text-transform: uppercase;
+    border-color: #59B2E6;
+}
+
+.login-panel {
+	font-weight: bolder;
+	font-size: 200%;
+	color: #666;
+}
+
+.actief {
+	color: #029f5b;
+}
+
+.row {
+	margin-right: 0px;
+	/*margin-left: 0px;*/
+/*	width: 100%;*/
 }
